@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+# 🎨 AI Clipart Generator (Android)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A polished Android mobile app that lets users upload their photo and generate multiple AI-inspired clipart styles such as cartoon, anime, sketch, pixel art, and flat illustration.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 📤 Upload image from gallery
+- 🖼️ Instant image preview
+- 🎨 Generate multiple styles in parallel:
+  - Cartoon
+  - Anime
+  - Sketch
+  - Pixel Art
+  - Flat Illustration
+- ⚡ Smooth loading states (skeleton UI)
+- 🧩 Grid-based output layout
+- 📤 Native sharing functionality
+- 📱 Fully responsive mobile UI
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠 Tech Stack
 
-In the output, you'll find options to open the app in a
+- React Native (Expo)
+- TypeScript
+- Expo Image Picker
+- Expo Sharing
+- EAS Build (APK generation)
+- Git & GitHub
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧠 Architecture
 
-## Get a fresh project
+- Component-based structure
+- Async handling for non-blocking UI
+- Clean separation of UI and logic
+- Scalable backend-ready design for AI integration
 
-When you're ready, run:
+---
+
+## 🤖 AI Integration Note
+
+Due to time constraints, AI generation is currently simulated using placeholder outputs.
+
+However, the app is designed with a backend-ready architecture and can be easily extended to integrate real AI models such as:
+- Replicate
+- Stability AI
+- OpenAI Image APIs
+
+---
+
+## ⚖️ Tradeoffs
+
+- Used mock outputs to ensure:
+  - Fast performance
+  - Smooth UX
+  - Reliable demo experience
+- Prioritized UI/UX and app stability over full AI integration
+
+---
+
+## 📦 APK Download
+
+👉 [Add your Google Drive APK link here]
+
+---
+
+## 🎥 Screen Recording
+
+👉 [Add your screen recording link here]
+
+---
+
+## ⚙️ Setup Instructions
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npx expo start
