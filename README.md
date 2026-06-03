@@ -60,17 +60,6 @@ However, the app is designed with a backend-ready architecture and can be easily
   - Reliable demo experience
 - Prioritized UI/UX and app stability over full AI integration
 
----
-
-## 📦 APK Download
-
-👉 [Add your Google Drive APK link here]
-
----
-
-## 🎥 Screen Recording
-
-👉 [Add your screen recording link here]
 
 ---
 
